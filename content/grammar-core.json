@@ -16,7 +16,10 @@
         "辅音字母 + y 结尾，把 y 变成 ies：study → studies。（play 是元音 + y，直接加 s：plays）",
         "have 很特殊：he has，不是 haves。",
         "否定句用 do not / does not（don't / doesn't），后面的动词变回原形，不再加 s：She doesn't like coffee.",
-        "固定搭配：every day（每天）分开写；go home（回家）不加 to。"
+        "固定搭配：every day（每天）分开写；go home（回家）不加 to。",
+        "疑问句：Do / Does 放句首，后面的动词用原形，不加 s：Does she like coffee?",
+        "选 Do 还是 Does：先把主语换成代词。he / she / it（一个人、一个东西）用 Does，I / you / we / they（包括多个人，如 my friends）用 Do。",
+        "回答用 do / does，不用动词：Yes, she does. / No, they don't."
       ],
       "examples": [
         {
@@ -30,6 +33,14 @@
         {
           "en": "He doesn't like coffee.",
           "zh": "他不喜欢咖啡。"
+        },
+        {
+          "en": "Does he like drawing?",
+          "zh": "他喜欢画画吗？"
+        },
+        {
+          "en": "Do they play games on weekends?",
+          "zh": "他们周末玩游戏吗？"
         }
       ]
     },
@@ -1173,6 +1184,206 @@
           "category": "grammar",
           "subtype": "third-person-s",
           "note": "it 是第三人称单数，动词要加 s。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0010",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "___ he like drawing?",
+      "zh": "他喜欢画画吗？",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answers": [
+        "Does"
+      ],
+      "hint": "把主语换成代词：he。",
+      "explanation": "he 是单数，用 Does。",
+      "mistakes": [
+        {
+          "text": "Do",
+          "category": "grammar",
+          "subtype": "do-does",
+          "note": "he / she / it 用 Does。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0011",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "___ they play games on weekends?",
+      "zh": "他们周末玩游戏吗？",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answers": [
+        "Do"
+      ],
+      "explanation": "they 用 Do。",
+      "mistakes": [
+        {
+          "text": "Does",
+          "category": "grammar",
+          "subtype": "do-does",
+          "note": "they 用 Do，不用 Does。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0012",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "___ your brother watch TV after dinner?",
+      "zh": "你哥哥晚饭后看电视吗？",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answers": [
+        "Does"
+      ],
+      "hint": "your brother = he。",
+      "explanation": "your brother 是一个人，相当于 he，用 Does。",
+      "mistakes": [
+        {
+          "text": "Do",
+          "category": "grammar",
+          "subtype": "do-does",
+          "note": "your brother 是一个人，相当于 he，用 Does。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0013",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "___ my friends like music?",
+      "zh": "我的朋友们喜欢音乐吗？",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answers": [
+        "Do"
+      ],
+      "hint": "friends 带 s：几个人。",
+      "explanation": "my friends 带 s，是多个人，相当于 they，用 Do。",
+      "mistakes": [
+        {
+          "text": "Does",
+          "category": "grammar",
+          "subtype": "do-does",
+          "note": "my friends 是复数，相当于 they，用 Do。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0014",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "___ my friend like music?",
+      "zh": "我的朋友喜欢音乐吗？",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answers": [
+        "Does"
+      ],
+      "hint": "friend 没有 s：一个人。",
+      "explanation": "my friend 没有 s，是一个人，相当于 he / she，用 Does。",
+      "mistakes": [
+        {
+          "text": "Do",
+          "category": "grammar",
+          "subtype": "do-does",
+          "note": "my friend 是一个人，用 Does。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0015",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "___ we go to school today?",
+      "zh": "我们今天去上学吗？",
+      "options": [
+        "Do",
+        "Does"
+      ],
+      "answers": [
+        "Do"
+      ],
+      "explanation": "we 用 Do。",
+      "mistakes": [
+        {
+          "text": "Does",
+          "category": "grammar",
+          "subtype": "do-does",
+          "note": "we 用 Do。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0016",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "fill",
+      "stem": "Does she go to school every day? Yes, she ___.",
+      "zh": "她每天去上学吗？是的，她去。",
+      "answers": [
+        "does"
+      ],
+      "hint": "回答用 do / does，不用动词。",
+      "explanation": "回答 Yes / No 时用助动词：Yes, she does.，不重复动词。",
+      "mistakes": [
+        {
+          "text": "go",
+          "category": "grammar",
+          "subtype": "short-answer",
+          "note": "回答用 does，不用动词 go。"
+        },
+        {
+          "text": "goes",
+          "category": "grammar",
+          "subtype": "short-answer",
+          "note": "回答用 does，不重复动词。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0017",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "Does she ___ coffee?",
+      "zh": "她喝咖啡吗？",
+      "options": [
+        "like",
+        "likes"
+      ],
+      "answers": [
+        "like"
+      ],
+      "hint": "Does 已经带走了 s。",
+      "explanation": "Does 后面动词用原形，不加 s。",
+      "mistakes": [
+        {
+          "text": "likes",
+          "category": "grammar",
+          "subtype": "base-verb-after-does",
+          "note": "Does 后面动词用原形，不加 s。"
         }
       ]
     }

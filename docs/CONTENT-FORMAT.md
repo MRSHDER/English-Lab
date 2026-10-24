@@ -1,7 +1,7 @@
 # 内容包格式
 
 内容放在 `content/*.json`，由 `src/content/schema.ts` 校验（程序启动时就校验，格式不对会直接报错）。
-目前只有一个包：`content/grammar-core.json`（5 个语法点，37 题）。新增内容包时，在 `src/content/index.ts` 里把它加进 `buildLibrary([...])`。
+目前只有一个包：`content/grammar-core.json`（5 个语法点，45 题）。新增内容包时，在 `src/content/index.ts` 里把它加进 `buildLibrary([...])`。
 
 ## 结构
 
