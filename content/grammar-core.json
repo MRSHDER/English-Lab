@@ -1,0 +1,1180 @@
+{
+  "format": "english-lab-content",
+  "formatVersion": 1,
+  "packId": "grammar-core",
+  "title": "基础语法 5 点",
+  "topics": [
+    {
+      "id": "g.present-simple",
+      "title": "一般现在时",
+      "titleEn": "Present simple",
+      "summary": "描述习惯、日常和事实。重点：主语是 he / she / it（或单个的人、物）时，动词要变形。",
+      "rules": [
+        "主语是 I / you / we / they：动词不变。例：I like drawing.",
+        "主语是 he / she / it（或单个的人、物）：动词加 s。例：She likes drawing.",
+        "以 s / sh / ch / x / o 结尾的动词，加 es：go → goes，watch → watches。",
+        "辅音字母 + y 结尾，把 y 变成 ies：study → studies。（play 是元音 + y，直接加 s：plays）",
+        "have 很特殊：he has，不是 haves。",
+        "否定句用 do not / does not（don't / doesn't），后面的动词变回原形，不再加 s：She doesn't like coffee.",
+        "固定搭配：every day（每天）分开写；go home（回家）不加 to。"
+      ],
+      "examples": [
+        {
+          "en": "I like drawing.",
+          "zh": "我喜欢画画。"
+        },
+        {
+          "en": "She goes to school every day.",
+          "zh": "她每天去上学。"
+        },
+        {
+          "en": "He doesn't like coffee.",
+          "zh": "他不喜欢咖啡。"
+        }
+      ]
+    },
+    {
+      "id": "g.countable-uncountable",
+      "title": "可数与不可数",
+      "titleEn": "Countable and uncountable nouns",
+      "summary": "名词分两类，决定了能不能加 s、用 many 还是 much、动词用 is 还是 are。",
+      "rules": [
+        "可数名词：能数出一个、两个，有复数形式。book → books。可以用 a / an、many、are。",
+        "不可数名词：不能直接数，没有复数形式，不加 s。常见的：water、money、advice、information、homework、news、rice。",
+        "不可数名词用 much（不用 many），动词用 is：There is much water.",
+        "可数复数用 many，动词用 are：There are many books.",
+        "a lot of 两种都可以用。",
+        "some 两种都可以用：some water，some books。"
+      ],
+      "examples": [
+        {
+          "en": "There is some water in the glass.",
+          "zh": "杯子里有一些水。"
+        },
+        {
+          "en": "There are many books on the desk.",
+          "zh": "桌上有很多书。"
+        },
+        {
+          "en": "I have a lot of homework.",
+          "zh": "我有很多作业。"
+        }
+      ]
+    },
+    {
+      "id": "g.past-simple",
+      "title": "一般过去时",
+      "titleEn": "Past simple",
+      "summary": "描述过去已经发生的事。常和 yesterday、last week、last night 一起用。",
+      "rules": [
+        "规则动词加 ed：watch → watched，play → played。",
+        "辅音 + y 结尾：y 变 i 再加 ed：study → studied。",
+        "不规则动词要单独记，没有规则：go → went，have → had，buy → bought，see → saw，eat → ate。",
+        "否定：did not（didn't）+ 动词原形：She didn't come.",
+        "疑问：Did + 主语 + 动词原形：Did you do it?",
+        "did 后面动词要变回原形，不再变过去式。"
+      ],
+      "examples": [
+        {
+          "en": "I watched a movie last night.",
+          "zh": "我昨晚看了一部电影。"
+        },
+        {
+          "en": "She went to the park last Sunday.",
+          "zh": "她上周日去了公园。"
+        },
+        {
+          "en": "He didn't come to class.",
+          "zh": "他没来上课。"
+        }
+      ]
+    },
+    {
+      "id": "g.comparatives",
+      "title": "比较级",
+      "titleEn": "Comparatives",
+      "summary": "比较两个人或物。结构：A + be + 比较级 + than + B。",
+      "rules": [
+        "短形容词（一个音节）加 er：tall → taller，cheap → cheaper。",
+        "以一个元音 + 一个辅音结尾的短词，双写辅音再加 er：hot → hotter，big → bigger。",
+        "辅音 + y 结尾，y 变 i 再加 er：happy → happier。",
+        "长形容词（两个音节以上，多数）在前面加 more：more interesting，more beautiful。",
+        "不能同时用 more 和 er（不说 more taller）。",
+        "特殊的：good → better，bad → worse。",
+        "“比”用 than（不是 then）。"
+      ],
+      "examples": [
+        {
+          "en": "My brother is taller than me.",
+          "zh": "我哥哥比我高。"
+        },
+        {
+          "en": "This movie is more interesting than that one.",
+          "zh": "这部电影比那部有趣。"
+        },
+        {
+          "en": "Today is hotter than yesterday.",
+          "zh": "今天比昨天热。"
+        }
+      ]
+    },
+    {
+      "id": "g.if-conditional",
+      "title": "if 条件句",
+      "titleEn": "If-conditional (first conditional)",
+      "summary": "“如果……就……”，说将来可能发生的事。",
+      "rules": [
+        "结构：If + 一般现在时，主句用 will + 动词原形。",
+        "例：If it rains tomorrow, we will stay home.",
+        "if 引导的那一半用现在时，不用 will。这是最常见的错误。",
+        "if 句里的动词，主语是 he / she / it 时要加 s：If it rains...",
+        "if 可以放前面，也可以放后面：We will stay home if it rains.",
+        "放前面时，两个部分之间用逗号。"
+      ],
+      "examples": [
+        {
+          "en": "If it rains tomorrow, we will stay home.",
+          "zh": "如果明天下雨，我们就待在家里。"
+        },
+        {
+          "en": "If I have time, I will call you.",
+          "zh": "如果我有时间，我会打电话给你。"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q.present-simple.0001",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "fill",
+      "stem": "I ___ drawing.",
+      "cue": "like",
+      "zh": "我喜欢画画。",
+      "answers": [
+        "like"
+      ],
+      "hint": "I 后面动词不变。",
+      "explanation": "主语是 I，动词不变。"
+    },
+    {
+      "id": "q.present-simple.0002",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "fill",
+      "stem": "She ___ drawing.",
+      "cue": "like",
+      "zh": "她喜欢画画。",
+      "answers": [
+        "likes"
+      ],
+      "hint": "she 后面动词要加 s。",
+      "explanation": "主语是 she（第三人称单数），动词要加 s。",
+      "mistakes": [
+        {
+          "text": "like",
+          "category": "grammar",
+          "subtype": "third-person-s",
+          "note": "she / he / it 后面的动词要加 s。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0003",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "fill",
+      "stem": "He ___ to school by bike.",
+      "cue": "go",
+      "zh": "他骑自行车去上学。",
+      "answers": [
+        "goes"
+      ],
+      "hint": "o 结尾加 es。",
+      "explanation": "go 以 o 结尾，第三人称单数加 es：goes。",
+      "mistakes": [
+        {
+          "text": "go",
+          "category": "grammar",
+          "subtype": "third-person-s",
+          "note": "he 后面的动词要变形。"
+        },
+        {
+          "text": "gos",
+          "category": "grammar",
+          "subtype": "es-ending",
+          "note": "go 加的是 es，不是 s。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0004",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "fill",
+      "stem": "My brother ___ TV after dinner.",
+      "cue": "watch",
+      "zh": "我哥哥晚饭后看电视。",
+      "answers": [
+        "watches"
+      ],
+      "hint": "ch 结尾加 es。",
+      "explanation": "watch 以 ch 结尾，加 es：watches。",
+      "mistakes": [
+        {
+          "text": "watch",
+          "category": "grammar",
+          "subtype": "third-person-s",
+          "note": "my brother 相当于 he，动词要加 s / es。"
+        },
+        {
+          "text": "watchs",
+          "category": "grammar",
+          "subtype": "es-ending",
+          "note": "ch 结尾要加 es。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0005",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "fill",
+      "stem": "She ___ English at night.",
+      "cue": "study",
+      "zh": "她晚上学英语。",
+      "answers": [
+        "studies"
+      ],
+      "hint": "y 变成 ies。",
+      "explanation": "study 是“辅音 + y”结尾：去掉 y，加 ies。拼写顺序：st-u-d-ies。",
+      "mistakes": [
+        {
+          "text": "study",
+          "category": "grammar",
+          "subtype": "third-person-s",
+          "note": "she 后面的动词要变形。"
+        },
+        {
+          "text": "studys",
+          "category": "grammar",
+          "subtype": "y-to-ies",
+          "note": "辅音 + y 结尾，要把 y 变成 ies。"
+        },
+        {
+          "text": "studyes",
+          "category": "grammar",
+          "subtype": "y-to-ies",
+          "note": "不是 yes，是去掉 y 再加 ies。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0006",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "fill",
+      "stem": "She ___ coffee.",
+      "cue": "not like",
+      "zh": "她不喜欢咖啡。",
+      "answers": [
+        "doesn't like",
+        "does not like"
+      ],
+      "hint": "doesn't + 动词原形。",
+      "explanation": "否定用 doesn't，后面的 like 变回原形，不再加 s。",
+      "mistakes": [
+        {
+          "text": "don't like",
+          "category": "grammar",
+          "subtype": "do-does",
+          "note": "主语是 she，要用 doesn't，不是 don't。"
+        },
+        {
+          "text": "doesn't likes",
+          "category": "grammar",
+          "subtype": "base-verb-after-doesnt",
+          "note": "doesn't 后面动词用原形，不加 s。"
+        },
+        {
+          "text": "does not likes",
+          "category": "grammar",
+          "subtype": "base-verb-after-doesnt",
+          "note": "does not 后面动词用原形，不加 s。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0007",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "I go to school ___.",
+      "zh": "我每天去上学。",
+      "options": [
+        "everyday",
+        "every day"
+      ],
+      "answers": [
+        "every day"
+      ],
+      "explanation": "“每天”是 every day，分开写。everyday 连写是形容词，意思是“日常的”（everyday life）。",
+      "mistakes": [
+        {
+          "text": "everyday",
+          "category": "vocabulary",
+          "subtype": "everyday-vs-every-day",
+          "note": "连写的 everyday 是“日常的”，“每天”要分开写。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0008",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "choice",
+      "stem": "She goes ___ at six.",
+      "zh": "她六点回家。",
+      "options": [
+        "home",
+        "to home",
+        "at home"
+      ],
+      "answers": [
+        "home"
+      ],
+      "hint": "“回家”前面不加 to。",
+      "explanation": "home 在这里是副词，直接放在 go 后面，前面不加 to：go home。",
+      "mistakes": [
+        {
+          "text": "to home",
+          "category": "grammar",
+          "subtype": "go-home-no-to",
+          "note": "go home 不加 to。"
+        },
+        {
+          "text": "at home",
+          "category": "vocabulary",
+          "subtype": "go-home-no-to",
+          "note": "at home 是“在家”，go 后面不能用。"
+        }
+      ]
+    },
+    {
+      "id": "q.present-simple.0009",
+      "revision": 1,
+      "topicId": "g.present-simple",
+      "type": "fill",
+      "stem": "He ___ a new phone.",
+      "cue": "have",
+      "zh": "他有一部新手机。",
+      "answers": [
+        "has"
+      ],
+      "hint": "have 的特殊形式。",
+      "explanation": "have 的第三人称单数是特殊形式 has。",
+      "mistakes": [
+        {
+          "text": "have",
+          "category": "grammar",
+          "subtype": "third-person-s",
+          "note": "he 后面要用 has。"
+        },
+        {
+          "text": "haves",
+          "category": "grammar",
+          "subtype": "irregular-has",
+          "note": "have 是特殊的，变成 has。"
+        }
+      ]
+    },
+    {
+      "id": "q.countable-uncountable.0001",
+      "revision": 1,
+      "topicId": "g.countable-uncountable",
+      "type": "choice",
+      "stem": "There is ___ water in the glass.",
+      "zh": "杯子里有很多水。",
+      "options": [
+        "much",
+        "many"
+      ],
+      "answers": [
+        "much"
+      ],
+      "explanation": "water 是不可数名词，用 much。",
+      "mistakes": [
+        {
+          "text": "many",
+          "category": "grammar",
+          "subtype": "much-many",
+          "note": "不可数名词用 much。"
+        }
+      ]
+    },
+    {
+      "id": "q.countable-uncountable.0002",
+      "revision": 1,
+      "topicId": "g.countable-uncountable",
+      "type": "choice",
+      "stem": "How ___ students are in your class?",
+      "zh": "你们班有多少学生？",
+      "options": [
+        "many",
+        "much"
+      ],
+      "answers": [
+        "many"
+      ],
+      "explanation": "students 是可数复数，用 many。",
+      "mistakes": [
+        {
+          "text": "much",
+          "category": "grammar",
+          "subtype": "much-many",
+          "note": "可数复数用 many。"
+        }
+      ]
+    },
+    {
+      "id": "q.countable-uncountable.0003",
+      "revision": 1,
+      "topicId": "g.countable-uncountable",
+      "type": "choice",
+      "stem": "There ___ a lot of books on the desk.",
+      "zh": "桌上有很多书。",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answers": [
+        "are"
+      ],
+      "explanation": "books 是复数，动词用 are。",
+      "mistakes": [
+        {
+          "text": "is",
+          "category": "grammar",
+          "subtype": "is-are",
+          "note": "复数用 are。"
+        }
+      ]
+    },
+    {
+      "id": "q.countable-uncountable.0004",
+      "revision": 1,
+      "topicId": "g.countable-uncountable",
+      "type": "choice",
+      "stem": "I need some ___.",
+      "zh": "我需要一些建议。",
+      "options": [
+        "advice",
+        "advices"
+      ],
+      "answers": [
+        "advice"
+      ],
+      "hint": "不可数名词不加 s。",
+      "explanation": "advice 是不可数名词，没有复数形式，不能加 s。",
+      "mistakes": [
+        {
+          "text": "advices",
+          "category": "grammar",
+          "subtype": "uncountable-plural",
+          "note": "advice 不可数，不加 s。"
+        }
+      ]
+    },
+    {
+      "id": "q.countable-uncountable.0005",
+      "revision": 1,
+      "topicId": "g.countable-uncountable",
+      "type": "fill",
+      "stem": "She has two ___.",
+      "cue": "brother",
+      "zh": "她有两个哥哥。",
+      "answers": [
+        "brothers"
+      ],
+      "hint": "two 表示复数。",
+      "explanation": "可数名词复数加 s：two brothers。",
+      "mistakes": [
+        {
+          "text": "brother",
+          "category": "grammar",
+          "subtype": "plural-s",
+          "note": "two 后面要用复数，加 s。"
+        }
+      ]
+    },
+    {
+      "id": "q.countable-uncountable.0006",
+      "revision": 1,
+      "topicId": "g.countable-uncountable",
+      "type": "choice",
+      "stem": "He gave me ___ useful information.",
+      "zh": "他给了我一些有用的信息。",
+      "options": [
+        "a",
+        "some"
+      ],
+      "answers": [
+        "some"
+      ],
+      "explanation": "information 不可数，不能用 a。可以用 some。",
+      "mistakes": [
+        {
+          "text": "a",
+          "category": "grammar",
+          "subtype": "uncountable-a",
+          "note": "不可数名词前不用 a / an。"
+        }
+      ]
+    },
+    {
+      "id": "q.countable-uncountable.0007",
+      "revision": 1,
+      "topicId": "g.countable-uncountable",
+      "type": "choice",
+      "stem": "I have a lot of ___ today.",
+      "zh": "我今天有很多作业。",
+      "options": [
+        "homework",
+        "homeworks"
+      ],
+      "answers": [
+        "homework"
+      ],
+      "explanation": "homework 不可数，没有复数形式。",
+      "mistakes": [
+        {
+          "text": "homeworks",
+          "category": "grammar",
+          "subtype": "uncountable-plural",
+          "note": "homework 不可数，不加 s。"
+        }
+      ]
+    },
+    {
+      "id": "q.past-simple.0001",
+      "revision": 1,
+      "topicId": "g.past-simple",
+      "type": "fill",
+      "stem": "Yesterday I ___ English.",
+      "cue": "study",
+      "zh": "昨天我学了英语。",
+      "answers": [
+        "studied"
+      ],
+      "hint": "y 变 i，再加 ed。",
+      "explanation": "study 是“辅音 + y”结尾，过去式把 y 变 i 加 ed：studied。",
+      "mistakes": [
+        {
+          "text": "study",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "yesterday 说明是过去的事，要用过去式。"
+        },
+        {
+          "text": "studyed",
+          "category": "grammar",
+          "subtype": "y-to-ied",
+          "note": "辅音 + y 结尾，要把 y 变成 i 再加 ed。"
+        }
+      ]
+    },
+    {
+      "id": "q.past-simple.0002",
+      "revision": 1,
+      "topicId": "g.past-simple",
+      "type": "fill",
+      "stem": "She ___ to the park last Sunday.",
+      "cue": "go",
+      "zh": "她上周日去了公园。",
+      "answers": [
+        "went"
+      ],
+      "hint": "不规则动词。",
+      "explanation": "go 是不规则动词，过去式是 went。",
+      "mistakes": [
+        {
+          "text": "go",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "last Sunday 是过去，要用过去式。"
+        },
+        {
+          "text": "goed",
+          "category": "grammar",
+          "subtype": "irregular-past",
+          "note": "go 是不规则动词，过去式是 went。"
+        },
+        {
+          "text": "goes",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "last Sunday 是过去，要用过去式。"
+        }
+      ]
+    },
+    {
+      "id": "q.past-simple.0003",
+      "revision": 1,
+      "topicId": "g.past-simple",
+      "type": "fill",
+      "stem": "We ___ a movie last night.",
+      "cue": "watch",
+      "zh": "我们昨晚看了一部电影。",
+      "answers": [
+        "watched"
+      ],
+      "explanation": "规则动词加 ed：watched。",
+      "mistakes": [
+        {
+          "text": "watch",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "last night 是过去，要用过去式。"
+        },
+        {
+          "text": "watches",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "last night 是过去，要用过去式。"
+        }
+      ]
+    },
+    {
+      "id": "q.past-simple.0004",
+      "revision": 1,
+      "topicId": "g.past-simple",
+      "type": "fill",
+      "stem": "I ___ breakfast at seven yesterday.",
+      "cue": "have",
+      "zh": "我昨天七点吃了早饭。",
+      "answers": [
+        "had"
+      ],
+      "explanation": "have 的过去式是 had。",
+      "mistakes": [
+        {
+          "text": "have",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "yesterday 是过去，要用过去式。"
+        },
+        {
+          "text": "haved",
+          "category": "grammar",
+          "subtype": "irregular-past",
+          "note": "have 是不规则动词，过去式是 had。"
+        }
+      ]
+    },
+    {
+      "id": "q.past-simple.0005",
+      "revision": 1,
+      "topicId": "g.past-simple",
+      "type": "fill",
+      "stem": "He ___ a new phone last week.",
+      "cue": "buy",
+      "zh": "他上周买了一部新手机。",
+      "answers": [
+        "bought"
+      ],
+      "explanation": "buy 是不规则动词，过去式是 bought。",
+      "mistakes": [
+        {
+          "text": "buy",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "last week 是过去，要用过去式。"
+        },
+        {
+          "text": "buyed",
+          "category": "grammar",
+          "subtype": "irregular-past",
+          "note": "buy 是不规则动词，过去式是 bought。"
+        },
+        {
+          "text": "boughted",
+          "category": "grammar",
+          "subtype": "irregular-past",
+          "note": "bought 已经是过去式，不要再加 ed。"
+        }
+      ]
+    },
+    {
+      "id": "q.past-simple.0006",
+      "revision": 1,
+      "topicId": "g.past-simple",
+      "type": "fill",
+      "stem": "She ___ come to class yesterday.",
+      "cue": "not",
+      "zh": "她昨天没来上课。",
+      "answers": [
+        "didn't",
+        "did not"
+      ],
+      "hint": "过去的否定。",
+      "explanation": "过去的否定用 didn't，后面的动词用原形。",
+      "mistakes": [
+        {
+          "text": "doesn't",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "yesterday 是过去，要用 didn't。"
+        },
+        {
+          "text": "don't",
+          "category": "grammar",
+          "subtype": "tense",
+          "note": "yesterday 是过去，要用 didn't。"
+        },
+        {
+          "text": "not",
+          "category": "grammar",
+          "subtype": "negation",
+          "note": "要用助动词 didn't。"
+        }
+      ]
+    },
+    {
+      "id": "q.past-simple.0007",
+      "revision": 1,
+      "topicId": "g.past-simple",
+      "type": "choice",
+      "stem": "Did you ___ the homework?",
+      "zh": "你做作业了吗？",
+      "options": [
+        "do",
+        "did",
+        "done"
+      ],
+      "answers": [
+        "do"
+      ],
+      "explanation": "Did 后面的动词用原形：do。",
+      "mistakes": [
+        {
+          "text": "did",
+          "category": "grammar",
+          "subtype": "base-verb-after-did",
+          "note": "did 后面动词变回原形。"
+        },
+        {
+          "text": "done",
+          "category": "grammar",
+          "subtype": "base-verb-after-did",
+          "note": "did 后面动词变回原形，不用过去分词。"
+        }
+      ]
+    },
+    {
+      "id": "q.comparatives.0001",
+      "revision": 1,
+      "topicId": "g.comparatives",
+      "type": "fill",
+      "stem": "My brother is ___ than me.",
+      "cue": "tall",
+      "zh": "我哥哥比我高。",
+      "answers": [
+        "taller"
+      ],
+      "explanation": "tall 是短形容词，加 er。",
+      "mistakes": [
+        {
+          "text": "more tall",
+          "category": "grammar",
+          "subtype": "more-vs-er",
+          "note": "短形容词加 er，不用 more。"
+        },
+        {
+          "text": "tall",
+          "category": "grammar",
+          "subtype": "comparative-form",
+          "note": "比较要用比较级。"
+        }
+      ]
+    },
+    {
+      "id": "q.comparatives.0002",
+      "revision": 1,
+      "topicId": "g.comparatives",
+      "type": "fill",
+      "stem": "This bag is ___ than that one.",
+      "cue": "cheap",
+      "zh": "这个包比那个便宜。",
+      "answers": [
+        "cheaper"
+      ],
+      "explanation": "cheap 是短形容词，加 er。",
+      "mistakes": [
+        {
+          "text": "more cheap",
+          "category": "grammar",
+          "subtype": "more-vs-er",
+          "note": "短形容词加 er，不用 more。"
+        },
+        {
+          "text": "cheap",
+          "category": "grammar",
+          "subtype": "comparative-form",
+          "note": "比较要用比较级。"
+        }
+      ]
+    },
+    {
+      "id": "q.comparatives.0003",
+      "revision": 1,
+      "topicId": "g.comparatives",
+      "type": "fill",
+      "stem": "This movie is ___ than that one.",
+      "cue": "interesting",
+      "zh": "这部电影比那部有趣。",
+      "answers": [
+        "more interesting"
+      ],
+      "explanation": "interesting 是长形容词，前面加 more。",
+      "mistakes": [
+        {
+          "text": "interestinger",
+          "category": "grammar",
+          "subtype": "more-vs-er",
+          "note": "长形容词前面加 more，不加 er。"
+        },
+        {
+          "text": "interesting",
+          "category": "grammar",
+          "subtype": "comparative-form",
+          "note": "比较要用比较级。"
+        }
+      ]
+    },
+    {
+      "id": "q.comparatives.0004",
+      "revision": 1,
+      "topicId": "g.comparatives",
+      "type": "fill",
+      "stem": "Today is ___ than yesterday.",
+      "cue": "hot",
+      "zh": "今天比昨天热。",
+      "answers": [
+        "hotter"
+      ],
+      "hint": "双写最后一个字母。",
+      "explanation": "hot 以“元音 + 辅音”结尾，双写 t 再加 er：hotter。",
+      "mistakes": [
+        {
+          "text": "hoter",
+          "category": "spelling",
+          "subtype": "double-consonant",
+          "note": "hot 要双写 t：hotter。"
+        },
+        {
+          "text": "more hot",
+          "category": "grammar",
+          "subtype": "more-vs-er",
+          "note": "短形容词加 er，不用 more。"
+        }
+      ]
+    },
+    {
+      "id": "q.comparatives.0005",
+      "revision": 1,
+      "topicId": "g.comparatives",
+      "type": "fill",
+      "stem": "She is ___ than her sister.",
+      "cue": "happy",
+      "zh": "她比她妹妹开心。",
+      "answers": [
+        "happier"
+      ],
+      "explanation": "happy 以“辅音 + y”结尾，y 变 i 再加 er：happier。",
+      "mistakes": [
+        {
+          "text": "happyer",
+          "category": "grammar",
+          "subtype": "y-to-ier",
+          "note": "辅音 + y 结尾，要把 y 变成 i 再加 er。"
+        },
+        {
+          "text": "more happy",
+          "category": "grammar",
+          "subtype": "more-vs-er",
+          "note": "happy 的比较级是 happier。"
+        }
+      ]
+    },
+    {
+      "id": "q.comparatives.0006",
+      "revision": 1,
+      "topicId": "g.comparatives",
+      "type": "fill",
+      "stem": "For me, math is ___ than English.",
+      "cue": "good",
+      "zh": "对我来说，数学比英语更好。",
+      "answers": [
+        "better"
+      ],
+      "hint": "特殊形式。",
+      "explanation": "good 的比较级是特殊的 better。",
+      "mistakes": [
+        {
+          "text": "gooder",
+          "category": "grammar",
+          "subtype": "irregular-comparative",
+          "note": "good 的比较级是 better。"
+        },
+        {
+          "text": "more good",
+          "category": "grammar",
+          "subtype": "irregular-comparative",
+          "note": "good 的比较级是 better。"
+        }
+      ]
+    },
+    {
+      "id": "q.comparatives.0007",
+      "revision": 1,
+      "topicId": "g.comparatives",
+      "type": "choice",
+      "stem": "He is taller ___ me.",
+      "zh": "他比我高。",
+      "options": [
+        "than",
+        "then",
+        "that"
+      ],
+      "answers": [
+        "than"
+      ],
+      "explanation": "比较用 than；then 是“然后”。",
+      "mistakes": [
+        {
+          "text": "then",
+          "category": "vocabulary",
+          "subtype": "than-then",
+          "note": "than 是“比”，then 是“然后”。"
+        }
+      ]
+    },
+    {
+      "id": "q.if-conditional.0001",
+      "revision": 1,
+      "topicId": "g.if-conditional",
+      "type": "fill",
+      "stem": "If it ___ tomorrow, we will stay home.",
+      "cue": "rain",
+      "zh": "如果明天下雨，我们就待在家里。",
+      "answers": [
+        "rains"
+      ],
+      "hint": "if 后面不用 will。",
+      "explanation": "if 那半句用一般现在时，it 是第三人称单数，动词加 s。",
+      "mistakes": [
+        {
+          "text": "will rain",
+          "category": "grammar",
+          "subtype": "if-no-will",
+          "note": "if 引导的从句不用 will，用一般现在时。"
+        },
+        {
+          "text": "rain",
+          "category": "grammar",
+          "subtype": "third-person-s",
+          "note": "it 是第三人称单数，动词要加 s。"
+        }
+      ]
+    },
+    {
+      "id": "q.if-conditional.0002",
+      "revision": 1,
+      "topicId": "g.if-conditional",
+      "type": "fill",
+      "stem": "If I have time, I ___ you.",
+      "cue": "call",
+      "zh": "如果我有时间，我会给你打电话。",
+      "answers": [
+        "will call"
+      ],
+      "explanation": "主句用 will + 动词原形。",
+      "mistakes": [
+        {
+          "text": "call",
+          "category": "grammar",
+          "subtype": "will-in-main-clause",
+          "note": "主句要用 will + 动词原形。"
+        },
+        {
+          "text": "would call",
+          "category": "grammar",
+          "subtype": "conditional-type",
+          "note": "这里是可能发生的将来，用 will。"
+        },
+        {
+          "text": "will calls",
+          "category": "grammar",
+          "subtype": "base-verb-after-will",
+          "note": "will 后面动词用原形。"
+        }
+      ]
+    },
+    {
+      "id": "q.if-conditional.0003",
+      "revision": 1,
+      "topicId": "g.if-conditional",
+      "type": "choice",
+      "stem": "If she studies hard, she ___ the test.",
+      "zh": "如果她努力学习，她会通过考试。",
+      "options": [
+        "passes",
+        "will pass",
+        "would pass"
+      ],
+      "answers": [
+        "will pass"
+      ],
+      "explanation": "主句用 will + 动词原形。",
+      "mistakes": [
+        {
+          "text": "passes",
+          "category": "grammar",
+          "subtype": "will-in-main-clause",
+          "note": "主句要用 will + 动词原形。"
+        },
+        {
+          "text": "would pass",
+          "category": "grammar",
+          "subtype": "conditional-type",
+          "note": "这里是可能发生的将来，用 will。"
+        }
+      ]
+    },
+    {
+      "id": "q.if-conditional.0004",
+      "revision": 1,
+      "topicId": "g.if-conditional",
+      "type": "fill",
+      "stem": "If you ___ the bus, you will be late.",
+      "cue": "miss",
+      "zh": "如果你错过公交车，你会迟到。",
+      "answers": [
+        "miss"
+      ],
+      "hint": "if 后面不用 will。",
+      "explanation": "if 句里用一般现在时；主语是 you，动词不变。",
+      "mistakes": [
+        {
+          "text": "will miss",
+          "category": "grammar",
+          "subtype": "if-no-will",
+          "note": "if 引导的从句不用 will。"
+        },
+        {
+          "text": "misses",
+          "category": "grammar",
+          "subtype": "subject-verb",
+          "note": "主语是 you，动词不加 s / es。"
+        }
+      ]
+    },
+    {
+      "id": "q.if-conditional.0005",
+      "revision": 1,
+      "topicId": "g.if-conditional",
+      "type": "choice",
+      "stem": "___ you help me, I will finish early.",
+      "zh": "如果你帮我，我会早点做完。",
+      "options": [
+        "If",
+        "Is",
+        "Of"
+      ],
+      "answers": [
+        "If"
+      ],
+      "explanation": "表示“如果”的是 If。",
+      "mistakes": [
+        {
+          "text": "Is",
+          "category": "vocabulary",
+          "subtype": "if-is",
+          "note": "Is 是“是”，“如果”是 If。"
+        },
+        {
+          "text": "Of",
+          "category": "vocabulary",
+          "subtype": "if-of",
+          "note": "Of 是“……的”，“如果”是 If。"
+        }
+      ]
+    },
+    {
+      "id": "q.if-conditional.0006",
+      "revision": 1,
+      "topicId": "g.if-conditional",
+      "type": "fill",
+      "stem": "If he ___ late, we will start without him.",
+      "cue": "be",
+      "zh": "如果他迟到，我们就不等他开始。",
+      "answers": [
+        "is"
+      ],
+      "hint": "he 对应 is。",
+      "explanation": "if 句里用一般现在时；he 对应 be 动词 is。",
+      "mistakes": [
+        {
+          "text": "will be",
+          "category": "grammar",
+          "subtype": "if-no-will",
+          "note": "if 引导的从句不用 will。"
+        },
+        {
+          "text": "be",
+          "category": "grammar",
+          "subtype": "be-form",
+          "note": "he 要用 is。"
+        },
+        {
+          "text": "are",
+          "category": "grammar",
+          "subtype": "be-form",
+          "note": "he 要用 is。"
+        }
+      ]
+    },
+    {
+      "id": "q.if-conditional.0007",
+      "revision": 1,
+      "topicId": "g.if-conditional",
+      "type": "choice",
+      "stem": "We will not go out if it ___.",
+      "zh": "如果下雨，我们就不出去。",
+      "options": [
+        "rains",
+        "will rain",
+        "rain"
+      ],
+      "answers": [
+        "rains"
+      ],
+      "explanation": "if 后面用一般现在时，it 对应动词加 s：rains。",
+      "mistakes": [
+        {
+          "text": "will rain",
+          "category": "grammar",
+          "subtype": "if-no-will",
+          "note": "if 引导的从句不用 will。"
+        },
+        {
+          "text": "rain",
+          "category": "grammar",
+          "subtype": "third-person-s",
+          "note": "it 是第三人称单数，动词要加 s。"
+        }
+      ]
+    }
+  ]
+}
