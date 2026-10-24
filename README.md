@@ -68,9 +68,9 @@ npm run build        # 生成 dist/
 ## 部署
 
 正式站：https://english-lab-mrshder.vercel.app
-推送到 `main` 后会自动重新构建并更新这个地址。
+推送到 `main` 后，托管平台会自动重新构建并更新这个地址。
 
-GitHub Pages 工作流（`.github/workflows/deploy.yml`）仍会在推送后跑测试并尝试发布；第一次使用需要在仓库 Settings → Pages 里把 Source 选为 **GitHub Actions**。那条地址是 `https://mrshder.github.io/english-lab/`，目前未开通。
+仓库里的 `.github/workflows/check.yml` 只做检查：每次推送自动跑单元测试和构建，题库格式错误会显示红色叉号。它不负责发布，也不依赖 GitHub Pages。
 
 ## 谁可以改什么
 

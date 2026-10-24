@@ -1,0 +1,24 @@
+name: 检查（单元测试与构建）
+
+# 只做检查，不负责发布：网站由你选用的托管平台在仓库更新后自动同步。
+# 题库格式错误或代码出问题时，这里会显示红色叉号，提醒尽快修复。
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
