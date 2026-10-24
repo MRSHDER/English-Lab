@@ -113,12 +113,14 @@ test.describe('学习闭环：做题 → 错题本 → 复习', () => {
     await page.goto('/#/review');
     await expect(page.getByTestId('review-empty')).toContainText('今天没有要复习的题');
 
-    // 把浏览器时钟拨到 36 小时后，数据仍在 IndexedDB 里
-    await page.clock.install({ time: new Date(Date.now() + 36 * 3600_000) });
+    // 把浏览器时钟拨到“两天后的中午”（用本地日期算，和现在是几点无关），数据仍在 IndexedDB 里。
+    // 首次复习的间隔：答错 1 天、提示后答对 2 天、独立答对 3 天，
+    // 所以那天到期的正好是第 2、3、4、5 题这 4 道；独立答对的 5 道还没到期。
+    const now = new Date();
+    await page.clock.install({ time: new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2, 12, 0, 0) });
     await page.reload();
-    await expect(page.getByTestId('q-progress')).toHaveText(/第 1 题 \/ 共 [4-9] 题/);
-    const total = Number(((await page.getByTestId('q-progress').innerText()).match(/共 (\d+) 题/) ?? [])[1]);
-    expect(total).toBeGreaterThanOrEqual(4);
+    await expect(page.getByTestId('q-progress')).toHaveText('第 1 题 / 共 4 题');
+    const total = 4;
     for (let n = 0; n < total; n++) {
       await answerRight(page);
       await expect(page.getByTestId('q-result')).toHaveAttribute('data-outcome', 'independent');
