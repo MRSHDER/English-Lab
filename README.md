@@ -2,6 +2,8 @@
 
 私人使用的雅思备考学习网站。
 
+线上地址：https://english-lab-mrshder.vercel.app
+
 当前版本 0.2.0 包含：
 - 第一步：项目骨架、暗色主题、存储层、导入导出/备份。
 - 第二步（先做最急的）：5 个语法点题库、练习、错题本（错因分类）、FSRS 间隔复习、简单首页。
@@ -63,11 +65,12 @@ npm run build        # 生成 dist/
 - 其余记为“待分类”，不会默认算成语法；学生可以在答题后或错题本里自己改。
 - “手滑”记录在案，但不计入各类错误统计。
 
-## 部署（GitHub Pages）
+## 部署
 
-推送到 `main` 后，`.github/workflows/deploy.yml` 会自动：安装依赖 → 跑单元测试 → 构建 → 发布到 GitHub Pages。测试不通过就不会发布。
-第一次使用需要在仓库 Settings → Pages 里把 Source 选为 **GitHub Actions**。
-网址：`https://mrshder.github.io/english-lab/`
+正式站：https://english-lab-mrshder.vercel.app
+推送到 `main` 后会自动重新构建并更新这个地址。
+
+GitHub Pages 工作流（`.github/workflows/deploy.yml`）仍会在推送后跑测试并尝试发布；第一次使用需要在仓库 Settings → Pages 里把 Source 选为 **GitHub Actions**。那条地址是 `https://mrshder.github.io/english-lab/`，目前未开通。
 
 ## 谁可以改什么
 
